@@ -1,5 +1,5 @@
 import React from 'react';
-import profile_photo from './img/my_photo.jpg';
+import profile_photo from './img/volov.jpg';
 import './App.css';
 
 function App() {
