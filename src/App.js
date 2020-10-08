@@ -45,7 +45,7 @@ function App() {
             Через рiк роботи вже отримав 3 мiсце за конкурсну роботу в Україні.
             <br />
             <a className={"site_link"}
-              href="https://internews.ua/opportunity/decentralization-2018"
+              href="https://docs.google.com/document/d/e/2PACX-1vRQYY_CjdQLBOVRDgY4AAOpsKWjn8rvZ6aaZ32apxmfCaBFEt01vh5shpYPH0tEyNb339YfKeuST7iI/pub"
               target="blank"
             >
               Всеукраїнський конкурс журналістських робіт за участі ОБСЄ в
@@ -88,7 +88,8 @@ function App() {
             <br />
             Git, Redux, Bootstrap-4, Sass, JS, HTML-5, CSS-3, розумію на
             англійській мові технiчну документацiю. <br />
-            <a href="/" className="en">Курси англійської мови. Cертифiкат</a>
+            <a href="https://docs.google.com/document/d/e/2PACX-1vThUB84JQB2XI6TBXAUYIuY_Aq_iSEUa4GswKradvJWGZVswAuBlYs8Dw2kybgcTvaIg3mWZ0nT4j-f/pub"
+             className="en">Курси англійської мови. Cертифiкат</a>
             <div className={'sertificate'}>
               <img src={en_photo} alt="sertificate" width="100%"/>
             </div>

@@ -3,23 +3,12 @@
   
   font-size: 25px;
   position: relative;
-  /* background-color: lightgrey; */
   width: 21cm;
         height: 29.7cm;
         margin: 0 auto; 
 
 }
 
-
-
-
-/* .rezume {
-  position: relative;
-  background-color: lightgrey;
-  width: 21cm;
-        height: 29.7cm;
-        margin: 30mm 45mm 30mm 45mm; 
-} */
 .photo {
   position: absolute;
 width: 200px;
