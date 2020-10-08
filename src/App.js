@@ -1,5 +1,8 @@
 import React from "react";
 import profile_photo from "./img/volov.jpg";
+import en_photo from "./img/en.jpg";
+import diplom from './img/diploma.jpg'
+
 import "./App.css";
 
 function App() {
@@ -32,9 +35,8 @@ function App() {
         </div>
         <div className="item">
           <div className="item_title">Професiйна дiяльнiсть:</div>
-          <div className="item_body">
+          <div className="item_body parent">
             Працював адмiном на сайтi iнтернет-видання "Вичерпно"
-            {/* <br /> */}
             та контент-менеджером. Знiмав iнтерв`ю у студії, займався
             вiдеомонтажем для продакшен.
             <br />
@@ -42,13 +44,16 @@ function App() {
             <br />
             Через рiк роботи вже отримав 3 мiсце за конкурсну роботу в Україні.
             <br />
-            <a
+            <a className={"site_link"}
               href="https://internews.ua/opportunity/decentralization-2018"
               target="blank"
             >
               Всеукраїнський конкурс журналістських робіт за участі ОБСЄ в
               Україні.
             </a>
+            <div className={"diploma"}>
+                <img src={diplom} alt="document" width="400px" />
+              </div>
             <br />
             До цього торгував электрообладнанням 18 рокiв. За першi ciм рокiв
             придбав власний магазин.
@@ -71,7 +76,7 @@ function App() {
         </div>
         <div className="item">
           <div className="item_title">Додаткова Освiта:</div>
-          <div className="item_body">
+          <div className="item_body parent">
             <a
               href="https://assets.htmlacademy.ru/certificates/intensive/26/191011.pdf"
               target="blank"
@@ -83,13 +88,18 @@ function App() {
             <br />
             Git, Redux, Bootstrap-4, Sass, JS, HTML-5, CSS-3, розумію на
             англійській мові технiчну документацiю. <br />
-            Курси англійської мови.Cертифiкат. Вмiю працювати в програмах Photohsop та Premiere Pro CC.
+            <a href="/" className="en">Курси англійської мови. Cертифiкат</a>
+            <div className={'sertificate'}>
+              <img src={en_photo} alt="sertificate" width="100%"/>
+            </div>
+            . Вмiю працювати в програмах Photohsop та Premiere Pro CC.
             <br />
             Самостiйно вивчив технологiю виробництва меблiв. Перший виріб -
             велика кухня.
             <br />
             Розробляв меблi на платформi програми PRO-100.
             <br />
+            
           </div>
         </div>
         <div className="item">
@@ -113,6 +123,7 @@ function App() {
           <div className="item_body">___________________</div>
         </div>
       </div>
+      
       {/* <button onClick={window.print()}></button> */}
     </div>
   );
