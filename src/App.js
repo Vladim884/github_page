@@ -7,17 +7,19 @@ function App() {
     <div className="App">
       <h3>Резюме</h3>
       <div className={"photo"}>
-        <img src={profile_photo} width="100%" alt="profile-image" />
+        <img src={profile_photo} width="90%" alt="profile-image" />
       </div>
       <p>
-        <span className={'item_title'}>Воловенко Володимир Георгiйович</span>
+        <span className={"item_title"}>Воловенко Володимир Георгiйович</span>
         <br />
-        <span className={'item_title'}>Дата народження:</span> 05.10.1971р.
+        <span className={"item_title"}>Дата народження:</span> 05.10.1971р.
         <br />
-        <span className={'item_title'}>Телефон:</span> +38 063 291 81 17
+        <span className={"item_title"}>Телефон:</span> +38 063 291 81 17
         <br />
-        <span className={'item_title'}>email:</span> vladim884@gmail.com<br />
-        <span className={'item_title'}>my data:</span> https://vladim884.github.io/github_page/
+        <span className={"item_title"}>email:</span> vladim884@gmail.com
+        <br />
+        <span className={"item_title"}>my data:</span>{" "}
+        https://vladim884.github.io/github_page/
       </p>
       <div className="rezume_body">
         <div className="item">
@@ -32,16 +34,18 @@ function App() {
           <div className="item_title">Професiйна дiяльнiсть:</div>
           <div className="item_body">
             Працював адмiном на сайтi iнтернет-видання "Вичерпно"
+            {/* <br /> */}
+            та контент-менеджером. Знiмав iнтерв`ю у студії, займався
+            вiдеомонтажем для продакшен.
             <br />
-            та контент-менеджером. Знiмав iнтерв`ю у студії, займався монтажем,
-            <br />
-            та заливав вiдео до youTube у продакшен.
-            <br />
-            Постiйно вчусь, впровадив зйомку на хромакей.
+            Самостsйно провадив у студії зйомку на хромакей.
             <br />
             Через рiк роботи вже отримав 3 мiсце за конкурсну роботу в Україні.
             <br />
-            <a href="https://internews.ua/opportunity/decentralization-2018">
+            <a
+              href="https://internews.ua/opportunity/decentralization-2018"
+              target="blank"
+            >
               Всеукраїнський конкурс журналістських робіт за участі ОБСЄ в
               Україні.
             </a>
@@ -62,30 +66,30 @@ function App() {
         <div className="item">
           <div className="item_title">Освiта:</div>
           <div className="item_body">
-            Неповна середня.
-            <br />
-            Незакiнчений Донецький Гiрничий технiкум.
+            Неповна середня. Незакiнчений Донецький Гiрничий технiкум.
           </div>
         </div>
         <div className="item">
           <div className="item_title">Додаткова Освiта:</div>
           <div className="item_body">
-            <a href="https://assets.htmlacademy.ru/certificates/intensive/26/191011.pdf">
+            <a
+              href="https://assets.htmlacademy.ru/certificates/intensive/26/191011.pdf"
+              target="blank"
+            >
               Базовий HTML и CSS Сертифiкат з HTML ACADEMY:
             </a>
             <br />
             GeetHub у Черкасах: ReactJS + Frontend.
             <br />
-            Курси англ.мови. На руках сертифiкат
-            <br />
             Git, Redux, Bootstrap-4, Sass, JS, HTML-5, CSS-3, розумію на
-            англійській мові технiчну документацiю.
+            англійській мові технiчну документацiю. <br />
+            Rурси англійської мови.Cертифiкат. Вмiю працювати в програмах Photohsop та Premiere Pro CC.
             <br />
             Самостiйно вивчив технологiю виробництва меблiв. Перший виріб -
             велика кухня.
             <br />
-            Розробив кухню на платформi програми PRO-100.<br />
-            Вмiю працювати в програмах Photohsop та Premiere Pro CC
+            Розробляв меблi на платформi програми PRO-100.
+            <br />
           </div>
         </div>
         <div className="item">
@@ -99,20 +103,17 @@ function App() {
             Давно мріяв працювати в IT, але можливість з'явилася тільки, коли
             став переселенцем.
           </div>
-        </div>
+        </div><br />
         <div className="item">
           <div className="item_title">Дата:</div>
 
-          <div className="item_body">
-           ___________________ </div>
+          <div className="item_body">___________________ </div>
           <div className="item_title"> Пiдпис:</div>
 
-          <div className="item_body">
-           ___________________
-          </div>
+          <div className="item_body">___________________</div>
         </div>
       </div>
-      {/* <button onClick={window.print()}></button> */}
+      <button onClick={window.print()}></button>
     </div>
   );
 }
