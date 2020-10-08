@@ -113,7 +113,7 @@ function App() {
           <div className="item_body">___________________</div>
         </div>
       </div>
-      <button onClick={window.print()}></button>
+      {/* <button onClick={window.print()}></button> */}
     </div>
   );
 }
